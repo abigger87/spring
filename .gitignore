@@ -7,3 +7,4 @@ localhost.deployments.txt
 *~
 *.swp*
 
+.vscode/*.log

@@ -217,7 +217,8 @@ func mint{
         syscall_ptr: felt*,
         range_check_ptr
     }(to: felt, token_id: Uint256):
-    Ownable_only_owner()
+    # Allow anyone to mint
+    # Ownable_only_owner()
     ERC721_mint(to, token_id)
     return ()
 end
